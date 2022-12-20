@@ -1,11 +1,10 @@
-import React from 'react';
-import './estilo.css';
-import Logo from '../Logo';
-import IconesHeader from '../IconesHeader';
-import OpcoesHeader from '../OpcoesHeader';
+import Logo from '../Logo'
+import OpcoesHeader from '../OpcoesHeader'
+import IconesHeader from '../IconesHeader'
+import './estilo.css'
 
 function Header() {
-    return(
+    return (
         <header className='App-header'>
             <Logo/>
             <OpcoesHeader/>
@@ -14,4 +13,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Header

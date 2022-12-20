@@ -1,19 +1,17 @@
-import React from 'react';
 import logo from '../../imagens/logo.svg'
 import './estilo.css'
 
 function Logo() {
-      return (
+    return (
         <div className='logo'>
             <img 
-              src={logo} 
-              alt='logo' 
-              className='logo-img'
+                src={logo} 
+                alt='logo'
+                className='logo-img'
             ></img>
             <p><strong>Alura</strong>Books</p>
         </div>
-      );
-    }
+    )
+}
 
-
-export default Logo;
+export default Logo

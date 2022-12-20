@@ -1,15 +1,14 @@
-import React from 'react'
 import './estilo.css'
 
-const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
+const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTNTE']
 
 function OpcoesHeader() {
     return (
         <ul className='opcoes'>
-            { textoOpcoes.map((texto) => (
-                <li className='opcao'><p>{texto}</p></li>
-            )) }
-         </ul>
+        { textoOpcoes.map( (texto) => (
+            <li className='opcao'><p>{texto}</p></li>
+        ) ) }
+        </ul>
     )
 }
 

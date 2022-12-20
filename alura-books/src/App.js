@@ -1,6 +1,5 @@
-import React from 'react';
-import './App.css';
-import Header from './componentes/Header';
+import './App.css'
+import Header from './componentes/Header'
 
 function App() {
   return (
@@ -10,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
