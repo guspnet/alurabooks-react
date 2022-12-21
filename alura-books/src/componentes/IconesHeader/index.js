@@ -1,4 +1,3 @@
-import React from 'react';
 import perfil from '../../imagens/perfil.svg';
 import sacola from '../../imagens/sacola.svg';
 import './estilo.css'

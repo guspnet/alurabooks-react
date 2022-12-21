@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../../imagens/logo.svg'
 import './estilo.css'
 
